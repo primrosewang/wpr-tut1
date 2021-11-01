@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  @font-face {
+    font-family: serif;
+    src: url(https://www.dafont.com/assassin.font?psize=s&text=include);
+  }
+  body{
+    font-size: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 15px;
+    letter-spacing:0.5px;
+  }
+  h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  header{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing:0.25rem;
+  }
+  a:any-link{
+    color: #a66;
+  }
+  a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  a:active{
+    text-decoration:rgb(214, 93, 93);
+  }
+  nav{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+    
+  }
+  
+ 
+  
