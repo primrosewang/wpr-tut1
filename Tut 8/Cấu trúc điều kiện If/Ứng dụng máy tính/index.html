@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.button{
+    
+}
+</style>
+<body>
+    <div class="container"></div>
+    <header></header>
+    <main>
+        <form action="#" method="post">
+           <input type="number" name="number" id="number" > <br>
+           <div class="button">
+           <button id="one">1</button> <button id="two">2</button> <button id="three">3</button> <button id="Addition">+</button> <br>
+           <button id="four">4</button> <button id="five">5</button> <button id="six">6</button> <button id="Subtraction">-</button> <br>
+           <button id="seven">7</button> <button id="eight">8</button> <button id="nine">9</button> <button id="Multiplication">x</button> <br>
+           <button id="Delete">c</button> <button id="0">0</button> <button id="Equal">=</button> <button id="Division">/</button> <br>
+           </div>
+        </form>
+    </main>
+    <footer></footer>
+</div>
+<script>
+    let numberInput = document.getElementById('number');
+    let oneBtn = document.getElementById('oneBtn'); let twoBtn = document.getElementById('twoBtn'); 
+    let threeBtn = document.getElementById('threeBtn'); let addBtn = document.getElementById('addBtn');
+    let fourBtn = document.getElementById('fourBtn'); let fiveBtn = document.getElementById('fiveBtn');
+    let sixBtn = document.getElementById('sixBtn'); let subBtn = document.getElementById('subBtn');
+    let sevenBtn = document.getElementById('sixBtn'); let eightBtn = document.getElementById('eightBtn');
+    let nineBtn = document.getElementById('nineBtn'); let multiplyBtn = document.getElementById('multiplyBtn');
+    let deleteBtn = document.getElementById('deleteBtn'); let zeroBtn = document.getElementById('zeroBtn');
+    let equalBtn = document.getElementById('equalBtn'); let divBtn = document.getElementById('divBtn');
+
+    addBtn.addEventListener('click', function(){
+        event.preventDefault();
+      number = parseFloat(numberInput.value);
+      result.innerText = 'Result addition:' + (number);
+    });
+</script>
+</body>
+</html>
